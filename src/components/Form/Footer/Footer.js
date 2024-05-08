@@ -4,10 +4,10 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.buttonsContainer}>
-      <button type="button" className={classes.cancel} tabindex="9">
+      <button type="button" className={classes.cancel}>
         Cancel
       </button>
-      <button type="submit" className={classes.save} tabindex="10">
+      <button type="submit" className={classes.save}>
         SAVE
       </button>
     </div>

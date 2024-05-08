@@ -7,12 +7,10 @@ const SearchBar = () => {
       <i className="fa fa-search" aria-hidden="true"></i>
       <input
         type="search"
-        id="search"
         name="search"
         aria-label="search for a member"
         placeholder="Find members..."
         tabindex="1"
-        onkeypress="searchForm()"
       />
     </div>
   );

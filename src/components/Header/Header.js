@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Header.module.css";
+import "./Header.module.css";
 
 const Header = () => {
   return (
-    <header  className={classes.header}>
+    <header>
       <h1>Add members to Front-end development team</h1>
     </header>
   );

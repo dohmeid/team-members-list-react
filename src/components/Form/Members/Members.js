@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./Members.module.css";
 import Member from "./Member/Member";
+import "./Members.module.css";
 
-const members = [
+const MEMBERS = [
   {
     id: 1,
     name: "Carolien Bloeme",
@@ -34,16 +34,15 @@ const members = [
 ];
 
 const Members = () => {
-
   //rendering the members list
-  const membersList = members.map((member) => (
-    <Member key={member.id} name={member.name} />
+  const MEMBERS_LIST = MEMBERS.map((member) => (
+    <Member key={member.id} name={member.name} id={member.id} />
   ));
 
   return (
-    <fieldset className={classes.checkboxesContainer}>
+    <fieldset>
       <legend>Options:</legend>
-      <ul>{membersList}</ul>
+      <ul>{MEMBERS_LIST}</ul>
     </fieldset>
   );
 };

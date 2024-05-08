@@ -1,12 +1,12 @@
 import React from "react";
-import classes from "./Form.module.css";
 import SearchBar from "./SearchBar/SearchBar";
 import Members from "./Members/Members";
 import Footer from "./Footer/Footer";
+import "./Form.module.css";
 
 const Form = () => {
   return (
-    <form className={classes.form} method="GET">
+    <form method="GET">
       <SearchBar />
       <Members />
       <Footer />

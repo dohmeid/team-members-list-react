@@ -1,4 +1,4 @@
-.form {
+form {
     flex: 5 0 0;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 /*media queries*/
 @media (max-width: 600px) {
-    .form {
+    form {
         width: 300px;
     }
 }
