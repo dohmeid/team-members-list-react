@@ -1,13 +1,12 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit and save to reload.
-        </p>
-      </header>
+    <div className="app">
+      <Header />
+      <Form />
     </div>
   );
 }

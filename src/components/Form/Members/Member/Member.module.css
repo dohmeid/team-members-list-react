@@ -1,0 +1,46 @@
+& .member {
+    min-height: 3.5em;
+    border: 1px solid var(--light-grey-shade);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 8px 0px;
+    font-size: 1.3em;
+    cursor: pointer;
+
+    & i {
+        margin-right: 12px;
+        /* Add space between icon and label */
+    }
+
+    & label {
+        cursor: pointer;
+        flex-grow: 1;
+        /* Allow label to grow and take remaining space */
+    }
+
+    & input[type="checkbox"] {
+        cursor: pointer;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1.5px solid var(--light-grey-shade);
+        background-color: #fff;
+        /*for the green tick icon*/
+        text-align: center;
+        font-weight: 600;
+        color: var(--green-tick);
+
+        &:checked {
+            border: 1.5px solid var(--green-tick);
+
+            &::before {
+                content: "✔";
+            }
+        }
+    }
+}

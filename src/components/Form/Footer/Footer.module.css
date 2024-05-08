@@ -1,0 +1,39 @@
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 12em);
+    grid-template-rows: 4em;
+    gap: 30px;
+
+    & .save {
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: linear-gradient(to right, #09C6F9, #045DE9);
+        box-shadow: 0px 2px 3px 0px var(--grey-shade);
+        font-size: 1.2em;
+    }
+
+    & .cancel {
+        border: 1px solid var(--light-grey-shade);
+        border-radius: 5px;
+        color: var(--grey-shade);
+        background-color: white;
+        font-size: 1.2em;
+    }
+
+    & button {
+        cursor: pointer;
+
+        &:hover {
+            transition: 0.7s;
+            transform: translateY(7px);
+            box-shadow: 0px 10px 20px 2px var(--grey-shade);
+        }
+
+        &:focus {
+            /*for keyboard interactions*/
+            border: 4px solid black;
+        }
+    }
+
+}
