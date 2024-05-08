@@ -1,3 +1,6 @@
+# team-members-list-react
+FTS-TASK7- implementing a simple mockup using React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
