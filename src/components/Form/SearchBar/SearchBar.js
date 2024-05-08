@@ -10,7 +10,6 @@ const SearchBar = () => {
         name="search"
         aria-label="search for a member"
         placeholder="Find members..."
-        tabindex="1"
       />
     </div>
   );
