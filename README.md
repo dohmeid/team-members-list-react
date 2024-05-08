@@ -40,3 +40,8 @@ To run this application locally, follow these steps:
    ```
     npm start
    ```
+
+### :eye: Preview
+
+![react-mockup](https://github.com/dohmeid/team-members-list-react/assets/90987176/33d18149-5625-45ed-bb54-08ede17f743e)
+
