@@ -7,6 +7,8 @@ This project implements a simple design mockup using React. The design represen
 
 -----
 ### :eye: Preview
+You can access a live demo of this application here -> https://team-members-react-mockup.netlify.app/ 
+
 ![react-mock-up](https://github.com/dohmeid/team-members-list-react/assets/90987176/9314b780-dbf4-4429-9e7d-3e0d0f2d9bdc)
 
 -----
