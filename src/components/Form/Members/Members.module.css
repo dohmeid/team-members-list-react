@@ -1,0 +1,14 @@
+fieldset {
+    width: 100%;
+    margin: 20px 0px;
+    border: none;
+
+    & legend {
+        display: none;
+    }
+
+    & ul {
+        list-style: none;
+        color: var(--grey-shade);
+    }
+}

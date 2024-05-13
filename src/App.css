@@ -1,0 +1,28 @@
+:root {
+  --grey-shade: rgb(119, 118, 118);
+  --light-grey-shade: rgb(223, 221, 221);
+  --green-tick: #4CBB17;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+}
+
+/*media queries*/
+@media (max-width: 600px) {
+  .app {
+    font-size: 8px;
+  }
+}
